@@ -20,7 +20,6 @@ y = data['Close']
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
 
 pipeline_lr = Pipeline([("scaler", StandardScaler()), ("model", LinearRegression())])
-pipeline_knn = Pipeline([("scaler", StandardScaler()), ("model", KNeighborsRegressor())])
 pipeline_svr = Pipeline([("scaler", StandardScaler()), ("model", SVR())])
 pipeline_dt = Pipeline([("scaler", StandardScaler()), ("model", DecisionTreeRegressor())])
 pipeline_rf = Pipeline([("scaler", StandardScaler()), ("model", RandomForestRegressor())])

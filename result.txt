@@ -1,0 +1,82 @@
+RMSE (arima): 4.3531705709978095
+MAE (arima): 3.4290543070643573
+MSE (arima): 18.950094020201394
+R² Score (arima): 0.11631855599132557
+
+MSE (SARIMA): 0.011661758847914193
+RMSE (SARIMA): 0.10798962379744728
+MAE (SARIMA): 0.07907486607656394
+R² Score (SARIMA): 0.9999620331331213
+
+MSE (sarimax): 0.011661758847914193
+RMSE (sarimax): 0.10798962379744728
+MAE (sarimax): 0.07907486607656394
+R² Score (sarimax): 0.9999620331331213
+
+MSE (Linear Regression): 0.0000
+RMSE (Linear Regression): 0.0000
+MAE (Linear Regression): 0.0000
+R² Score (Linear Regression): 1.0000
+
+MSE (SVM): 5.7355
+RMSE (SVM): 2.3949
+MAE (SVM): 1.5268
+R² Score (SVM): 0.9816
+
+MSE (Decision Tree): 0.3229
+RMSE (Decision Tree): 0.5683
+MAE (Decision Tree): 0.1321
+R² Score (Decision Tree): 0.9990
+
+MSE (Random Forest): 0.0896
+RMSE (Random Forest): 0.2993
+MAE (Random Forest): 0.0774
+R² Score (Random Forest): 0.9997
+
+Simple Exponential Smoothing (SES):
+MAE: 0.8543
+MSE: 1.5680
+RMSE: 1.2522
+R2: 0.9949
+
+Holt’s Linear Trend Model:
+MAE: 0.8776
+MSE: 1.6516
+RMSE: 1.2851
+R2: 0.9946
+
+Triple Exponential Smoothing (Holt-Winters):
+MAE: 0.8525
+MSE: 1.5583
+RMSE: 1.2483
+R2: 0.9949
+
+Prophet
+Mean Squared Error (MSE): 124.9321
+Root Mean Squared Error (RMSE): 11.1773
+Mean Absolute Error (MAE): 9.2733
+R² Score: -4.8121
+
+XGBoost:
+  MSE: 0.2324
+  RMSE: 0.4821
+  MAE: 0.1889
+  R2: 0.9993
+
+Gradient Boosting:
+  MSE: 0.8705
+  RMSE: 0.9330
+  MAE: 0.6571
+  R2: 0.9972
+
+LightGBM:
+  MSE: 0.0742
+  RMSE: 0.2725
+  MAE: 0.1386
+  R2: 0.9998
+
+CatBoost:
+  MSE: 0.4509
+  RMSE: 0.6715
+  MAE: 0.4281
+  R2: 0.9986

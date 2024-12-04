@@ -80,3 +80,6 @@ CatBoost:
   RMSE: 0.6715
   MAE: 0.4281
   R2: 0.9986
+
+
+As per R² score , SARIMA and SARIMAX model give the best output
